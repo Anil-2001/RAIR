@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">LoginApp</string>
+    <string name="type_prompt">Choose a vist type</string>
+
+    <string-array name="type_arrays">
+        <item>Business</item>
+        <item>Holiday Trip</item>
+        <item>Religious Visit</item>
+        <item>Extreme Visit</item>
+        <item>Other</item>
+
+    </string-array>
+</resources>
