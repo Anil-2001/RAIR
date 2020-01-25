@@ -53,43 +53,4 @@ public class WhereActivity extends AppCompatActivity implements AdapterView.OnIt
     }
 }
 
-//public class WhereActivity extends AppCompatActivity  implements AdapterView.OnItemSelectedListener{
-//
-//    AdapterView.OnItemSelectedListener
-//
-//    {
-//        String[] type = {"Business", "Holiday Trip", "Religious Visit", "Extreme Visit", "Other"};
-//
-//        TextView tv1;
-//
-//        @Override
-//        protected void onCreate (Bundle savedInstanceState){
-//        super.onCreate(savedInstanceState);
-//        setContentView(R.layout.activity_where);
-//        tv1 = (TextView) findViewById(R.id.textView1);
-//    }
-//
-//        // Spinner element
-//        Spinner spin = (Spinner) findViewById(R.id.spinner);
-//        spin.setOnItemSelectedListener(this);
-//
-//        //Creating the ArrayAdapter instance having the country list
-//        ArrayAdapter aa = new ArrayAdapter(this, android.R.layout.simple_spinner_item, type);
-//        aa.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
-//        //Setting the ArrayAdapter data on the Spinner
-//        spin.setAdapter(aa);
-//
-//    }
-//
-//    //Performing action onItemSelected and onNothing selected
-//    @Override
-//    public void onItemSelected(AdapterView<?> arg0, View arg1, int position, long id) {
-//        Toast.makeText(getApplicationContext(), type[position], Toast.LENGTH_LONG).show();
-//    }
-//
-//    @Override
-//    public void onNothingSelected(AdapterView<?> arg0) {
-//        // TODO Auto-generated method stub
-//    }
-//}
 
